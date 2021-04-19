@@ -17,7 +17,7 @@ main() {
     int i, j;
     const unsigned char characters[] = "ABCDEFGH";
     const unsigned char numbers[] = "12345678";
-    char play[] = "A1";
+    char play[] = "C1";
 
     if ( (play[0] < 'I') && (play[1] < '9')) {
         printf("valida. la posicion si pertenece al tablero\r\n");

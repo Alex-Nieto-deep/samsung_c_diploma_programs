@@ -23,9 +23,9 @@ main() {
     char prueba[] = "01010101000011001100";
     char i = 0, j = 0;
     char culpa = 0;
-    char registroADN[3], registroID[3];
+    char registroADN[tam], registroID[tam];
 
-    for ( i = 0; i < 3; i++){
+    for ( i = 0; i < tam; i++){
         if (strcmp(db[i][1],prueba) == 0) {
             printf("%s culpabilidad 99.99 %%\r\n", db[i][0]);
             return 0;
